@@ -1,0 +1,92 @@
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 50px;
+    height: 100%;
+
+}
+
+h2 {   
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    text-shadow:3px 3px 0 rgba(0,0,0,0.1);
+}
+
+p {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 15px 15px;
+    text-shadow:1px 1px 0 rgba(0,0,0,0.1);
+}
+
+h3 {
+    margin: 20px;
+    font-size: 45px;
+    font-weight:lighter;
+    text-shadow:1px 1px 0 rgba(0,0,0,0.1)
+}
+
+.underline {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 8px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container div {
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    transition: 0.3s;
+}
+
+.container div:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+button {
+    background-color: yellow;
+    width: 160px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;   
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/*
+font: sans-serif
+background: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+border-bottom: 1px solid rgba(0,0,0,0.1);
+text-shadow:3px 3px 0 rgba(0,0,0,0.1);
+background-color: rgba(255,255,255,0.2);
+ */
